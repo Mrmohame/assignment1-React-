@@ -1,0 +1,20 @@
+.starDesign::after{
+content: "";
+width: 105px;
+height: 3px;
+background-color: white !important;
+position: absolute;
+left: 100%;
+bottom: 50%;
+transform: translateY(50%);
+}
+.starDesign::before{
+    content: "";
+    width: 105px;
+    height: 3px;
+    background-color: white !important;
+    position: absolute;
+    right: 100%;
+    bottom: 50%;
+    transform: translateY(50%);
+    }

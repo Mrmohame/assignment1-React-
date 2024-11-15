@@ -1,0 +1,29 @@
+.hello{
+    transition: all 1s;
+}
+.portfolioHover{
+    cursor: pointer;
+}
+.portfolioHover:hover .hello{
+opacity: 1;
+}
+.starDesign3::after{
+    content: "";
+    width: 105px;
+    height: 3px;
+    background-color: #2c3e50 !important;
+    position: absolute;
+    left: 100%;
+    bottom: 50%;
+    transform: translateY(50%);
+    }
+    .starDesign3::before{
+        content: "";
+        width: 105px;
+        height: 3px;
+        background-color: #2c3e50 !important;
+        position: absolute;
+        right: 100%;
+        bottom: 50%;
+        transform: translateY(50%);
+        }
